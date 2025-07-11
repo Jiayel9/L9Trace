@@ -1,7 +1,7 @@
 import json 
 from datetime import datetime
-from utils.evaluate import evaluate_text
 import os
+from utils.evaluate import evaluate_text
 
 LOG_FILE = "logs/toxicity_logs.json" 
 

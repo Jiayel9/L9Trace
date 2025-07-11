@@ -1,7 +1,6 @@
-# For CLI Purposes, for API purposes go to l9trace API folder
 from detoxify import Detoxify
 
-def evaluate_text(text, threshold=0.8):
+def evaluate(text, threshold=0.8):
     """
     Loads in model and makes prediction on input text toxicity
     Flags text if toxicity threshhold is above allocated limit
